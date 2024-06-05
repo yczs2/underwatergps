@@ -1,3 +1,5 @@
 # ninja log v5
-1	811	7135119929493227	CMakeFiles/native-audio-jni.dir/native-audio-jni.c.o	2141cfeef45fba7c
-813	1840	7135119937300787	D:/ctc/Github/underwatergps/Android_Project/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-audio-jni.so	5c470128e40422a1
+2	436	736793150	CMakeFiles/native-audio-jni.dir/native-audio-jni.c.o	d176d2feacc4d762
+438	850	736793151	D:/Desktop/underwatergps/Android_Project/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-audio-jni.so	fd9cab263939cd0
+8	568	739135106	CMakeFiles/native-audio-jni.dir/native-audio-jni.c.o	d176d2feacc4d762
+569	1039	739135106	D:/Desktop/underwatergps/Android_Project/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-audio-jni.so	fd9cab263939cd0

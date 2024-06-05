@@ -1,36 +1,38 @@
 {
+  "stringTable": {},
   "buildFiles": [
-    "D:\\ctc\\Github\\native-audio2\\app\\src\\main\\cpp\\CMakeLists.txt"
+    "D:\\Desktop\\underwatergps\\Android_Project\\app\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
-      "C:/ProgramData/chocolatey/bin/ninja.exe",
+      "D:\\android sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
       "-C",
-      "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cmake\\debug\\x86_64",
+      "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\x86_64",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
-    "ninja.exe",
+    "D:\\android sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
     "-C",
-    "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cmake\\debug\\x86_64",
+    "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\x86_64",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "native-audio-jni::@6890427a1f51a3e7e1df": {
-      "toolchain": "toolchain",
+    "native-audio-jni-Debug-x86_64": {
+      "buildCommandComponents": [
+        "D:\\android sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\x86_64",
+        "native-audio-jni"
+      ],
+      "buildType": "debug",
       "abi": "x86_64",
       "artifactName": "native-audio-jni",
-      "output": "D:\\ctc\\Github\\native-audio2\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libnative-audio-jni.so",
+      "output": "D:\\Desktop\\underwatergps\\Android_Project\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libnative-audio-jni.so",
       "runtimeFiles": []
     }
   },
-  "toolchains": {
-    "toolchain": {
-      "cCompilerExecutable": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
-      "cppCompilerExecutable": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
-    }
-  },
+  "toolchains": {},
   "cFileExtensions": [
     "c"
   ],

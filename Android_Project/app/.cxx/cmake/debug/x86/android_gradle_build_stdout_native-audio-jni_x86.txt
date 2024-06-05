@@ -1,0 +1,71 @@
+ninja: Entering directory `D:\Desktop\underwatergps\Android_Project\app\.cxx\cmake\debug\x86'
+[1/2] Building C object CMakeFiles/native-audio-jni.dir/native-audio-jni.c.o
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:235:9: warning: unused variable 'maxLineLength' [-Wunused-variable]
+    int maxLineLength = 1023;
+        ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:246:9: warning: unused variable 'maxLineLength' [-Wunused-variable]
+    int maxLineLength = 1023;
+        ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:789:21: warning: unused variable 'synclag' [-Wunused-variable]
+                int synclag = cxt->seekback;
+                    ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:861:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:946:9: warning: unused variable 'offset' [-Wunused-variable]
+    int offset=0;
+        ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:1584:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char* speaker_ts_filename_str = (*env)->GetStringUTFChars(env, speaker_ts_fname, NULL);
+          ^                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:1603:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char* topfilename = (*env)->GetStringUTFChars(env, ttfilename, NULL);
+          ^             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:1604:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char* bottomfilename = (*env)->GetStringUTFChars(env, tbfilename, NULL);
+          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:1605:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char* meta_filename = (*env)->GetStringUTFChars(env, tmeta_filename, NULL);
+          ^               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:1606:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char* mic_ts_filename_str = (*env)->GetStringUTFChars(env, mic_ts_fname, NULL);
+          ^                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:1527:10: warning: unused variable 'N' [-Wunused-variable]
+    jint N = (*env)->GetArrayLength(env, tempLeadData);
+         ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:1718:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char* filename = (*env)->GetStringUTFChars(env, tfilename, NULL);
+          ^          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:1934:74: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+            __android_log_print(ANDROID_LOG_VERBOSE, "debug", "out2 %d", lround(middle));
+                                                                    ~~   ^~~~~~~~~~~~~~
+                                                                    %ld
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:2013:9: warning: unused variable 'prevpeakval' [-Wunused-variable]
+    int prevpeakval=0;
+        ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:2042:9: warning: unused variable 'offset' [-Wunused-variable]
+    int offset=0;
+        ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:2206:12: warning: unused variable 'time_spent2' [-Wunused-variable]
+    double time_spent2 = (double)(t2 - t1) / CLOCKS_PER_SEC;
+           ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:2204:12: warning: unused variable 'time_spent0' [-Wunused-variable]
+    double time_spent0 = (double)(t0 - t_minus) / CLOCKS_PER_SEC;
+           ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:2205:12: warning: unused variable 'time_spent' [-Wunused-variable]
+    double time_spent = (double)(t1 - t0) / CLOCKS_PER_SEC;
+           ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:2295:21: warning: unused variable 'global_idx' [-Wunused-variable]
+                int global_idx = corr_idx - bias + h_idx;
+                    ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:165:22: warning: unused variable 'bqPlayerMuteSolo' [-Wunused-variable]
+static SLMuteSoloItf bqPlayerMuteSolo;
+                     ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:225:15: warning: unused variable 'nextBuffer' [-Wunused-variable]
+static short *nextBuffer;
+              ^
+D:/Desktop/underwatergps/Android_Project/app/src/main/cpp/native-audio-jni.c:226:17: warning: unused variable 'nextSize' [-Wunused-variable]
+static unsigned nextSize;
+                ^
+22 warnings generated.
+[2/2] Linking C shared library D:\Desktop\underwatergps\Android_Project\app\build\intermediates\cmake\debug\obj\x86\libnative-audio-jni.so

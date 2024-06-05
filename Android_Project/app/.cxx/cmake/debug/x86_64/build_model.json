@@ -6,12 +6,12 @@
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cmake\\debug\\x86_64",
-  "cxxBuildFolder": "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cmake\\debug\\x86_64",
+  "originalCxxBuildFolder": "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\x86_64",
+  "cxxBuildFolder": "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\x86_64",
   "abiPlatformVersion": 23,
   "cmake": {
-    "cmakeWrappingBaseFolder": "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cxx\\debug\\x86_64",
-    "cmakeArtifactsBaseFolder": "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cmake\\debug\\x86_64",
+    "cmakeWrappingBaseFolder": "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cxx\\debug\\x86_64",
+    "cmakeArtifactsBaseFolder": "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\x86_64",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -19,13 +19,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cmake\\debug\\x86_64",
-      "cmakeToolchain": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake",
-      "cmakeExecutable": "C:\\Program Files\\CMake\\bin\\cmake.exe",
+      "buildRoot": "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\x86_64",
+      "cmakeToolchain": "D:\\android sdk\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "D:\\android sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cmake\\debug\\prefab\\x86_64\\prefab"
+          "value": "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\prefab\\x86_64\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -33,7 +33,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake"
+          "value": "D:\\android sdk\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -41,7 +41,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670"
+          "value": "D:\\android sdk\\ndk\\22.1.7171670"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -53,7 +53,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670"
+          "value": "D:\\android sdk\\ndk\\22.1.7171670"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -61,11 +61,15 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "D:\\ctc\\Github\\native-audio2\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64"
+          "value": "D:\\Desktop\\underwatergps\\Android_Project\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64"
         },
         {
           "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "value": "D:\\ctc\\Github\\native-audio2\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64"
+          "value": "D:\\Desktop\\underwatergps\\Android_Project\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "D:\\android sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
         },
         {
           "name": "CMAKE_SYSTEM_NAME",
@@ -77,35 +81,32 @@
         }
       ]
     },
-    "cmakeServerLogFile": "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cmake\\debug\\x86_64\\cmake_server_log.txt"
+    "cmakeServerLogFile": "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\x86_64\\cmake_server_log.txt"
   },
   "variant": {
     "buildSystemArgumentList": [],
     "cFlagsList": [],
     "cppFlagsList": [],
     "variantName": "debug",
-    "objFolder": "D:\\ctc\\Github\\native-audio2\\app\\build\\intermediates\\cmake\\debug\\obj",
-    "soFolder": "D:\\ctc\\Github\\native-audio2\\app\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "D:\\Desktop\\underwatergps\\Android_Project\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "soFolder": "D:\\Desktop\\underwatergps\\Android_Project\\app\\build\\intermediates\\cmake\\debug\\lib",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARMEABI_V7A",
-      "ARM64_V8A",
-      "X86",
       "X86_64"
     ],
     "buildTargetSet": [],
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "D:\\ctc\\Github\\native-audio2\\app\\.cxx",
+      "cxxFolder": "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx",
       "splitsAbiFilterSet": [],
-      "intermediatesFolder": "D:\\ctc\\Github\\native-audio2\\app\\build\\intermediates",
+      "intermediatesFolder": "D:\\Desktop\\underwatergps\\Android_Project\\app\\build\\intermediates",
       "gradleModulePathName": ":app",
-      "moduleRootFolder": "D:\\ctc\\Github\\native-audio2\\app",
-      "moduleBuildFile": "D:\\ctc\\Github\\native-audio2\\app\\build.gradle",
-      "makeFile": "D:\\ctc\\Github\\native-audio2\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "moduleRootFolder": "D:\\Desktop\\underwatergps\\Android_Project\\app",
+      "moduleBuildFile": "D:\\Desktop\\underwatergps\\Android_Project\\app\\build.gradle",
+      "makeFile": "D:\\Desktop\\underwatergps\\Android_Project\\app\\src\\main\\cpp\\CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "ndkFolder": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670",
+      "ndkFolder": "D:\\android sdk\\ndk\\22.1.7171670",
       "ndkVersion": "22.1.7171670",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
@@ -168,42 +169,44 @@
           "default": true
         }
       ],
-      "originalCmakeToolchainFile": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake",
-      "cmakeToolchainFile": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake",
+      "originalCmakeToolchainFile": "D:\\android sdk\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchainFile": "D:\\android sdk\\ndk\\22.1.7171670\\build\\cmake\\android.toolchain.cmake",
       "cmake": {
         "isValidCmakeAvailable": true,
-        "cmakeExe": "C:\\Program Files\\CMake\\bin\\cmake.exe",
-        "minimumCmakeVersion": "3.23.2",
+        "cmakeExe": "D:\\android sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "D:\\android sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
         "isPreferCmakeFileApiEnabled": true
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
-          "ARM64_V8A": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
-          "X86": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
-          "X86_64": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+          "ARMEABI_V7A": "D:\\android sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "D:\\android sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "D:\\android sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "D:\\android sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "D:\\ctc\\Github\\native-audio2",
-        "cxxFolder": "D:\\ctc\\Github\\native-audio2\\.cxx",
-        "compilerSettingsCacheFolder": "D:\\ctc\\Github\\native-audio2\\.cxx",
-        "sdkFolder": "C:\\Users\\Ali\\AppData\\Local\\Android\\Sdk",
+        "rootBuildGradleFolder": "D:\\Desktop\\underwatergps\\Android_Project",
+        "cxxFolder": "D:\\Desktop\\underwatergps\\Android_Project\\.cxx",
+        "compilerSettingsCacheFolder": "D:\\Desktop\\underwatergps\\Android_Project\\.cxx",
+        "sdkFolder": "D:\\android sdk",
         "isNativeCompilerSettingsCacheEnabled": false,
         "isBuildOnlyTargetAbiEnabled": true,
+        "ideBuildTargetAbi": "x86_64,x86,arm64-v8a,armeabi-v7a,armeabi",
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false,
         "isV2NativeModelEnabled": true
       },
       "nativeBuildOutputLevel": "QUIET"
     },
-    "prefabDirectory": "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cmake\\debug\\prefab"
+    "prefabDirectory": "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\prefab"
   },
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "D:\\ctc\\Github\\native-audio2\\app\\.cxx\\cmake\\debug\\prefab\\x86_64"
+  "prefabFolder": "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\debug\\prefab\\x86_64"
 }

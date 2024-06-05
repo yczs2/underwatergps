@@ -419,7 +419,7 @@ int check_user_id(short* sig, unsigned long int sig_len){
 
 
 
-speakerCounter=0;
+int speakerCounter=0;
 // Callback function for speaker buffer, it loads data from the Java buffer to the hardware speaker buffer.
 void static bqPlayerCallback(SLAndroidSimpleBufferQueueItf bq, void *context)
 {

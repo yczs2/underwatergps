@@ -1,7 +1,7 @@
-Executable : ninja.exe
+Executable : D:\android sdk\cmake\3.10.2.4988404\bin\ninja.exe
 arguments : 
 -C
-D:\ctc\Github\underwatergps\Android_Project\app\.cxx\cmake\debug\arm64-v8a
+D:\Desktop\underwatergps\Android_Project\app\.cxx\cmake\debug\arm64-v8a
 native-audio-jni
 jvmArgs : 
 

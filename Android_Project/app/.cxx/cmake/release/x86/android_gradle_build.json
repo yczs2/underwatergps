@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\Desktop\\underwatergps\\Android_Project\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\android sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\release\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\android sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\release\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-audio-jni-Release-x86": {
+      "buildCommandComponents": [
+        "D:\\android sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\Desktop\\underwatergps\\Android_Project\\app\\.cxx\\cmake\\release\\x86",
+        "native-audio-jni"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "native-audio-jni",
+      "output": "D:\\Desktop\\underwatergps\\Android_Project\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libnative-audio-jni.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
